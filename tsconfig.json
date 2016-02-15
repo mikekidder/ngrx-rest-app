@@ -7,11 +7,9 @@
     "experimentalDecorators": true,
     "sourceMap": true
   },
-  "exclude": [
-    "node_modules"
-  ],
   "filesGlob": [
-    "client/**/*.ts"
+    "client/**/*.ts",
+    "typings/browser.d.ts"
   ],
   "compileOnSave": false,
   "atom": {
@@ -22,6 +20,7 @@
     "client/src/app.ts",
     "client/src/items.spec.ts",
     "client/src/items.ts",
-    "client/vendor.ts"
+    "client/vendor.ts",
+    "typings/browser.d.ts"
   ]
 }
